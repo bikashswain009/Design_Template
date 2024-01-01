@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    font-family: 'Figtree';
+  }
+  .nav-ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: rgb(214, 103, 103);
+    padding: 10px;
+    gap: 90px;
+    align-items: center;
+  }
+  .nav-ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .body-part {
+    display: flex;
+  }
+  .body-part img {
+    width: 50vw;
+    height: 90vh;
+  }
+  .nav-ul-img {
+    width: 2vw;
+  }
+  .sub-body-part span {
+    display: block;
+    font-size: 50px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bolder;
+    margin-top: 100px;
+    row-gap: 10px;
+  }
+  .sub-body-part {
+    margin-left: 65px;
+  }
+  .sub-body-part p {
+    margin-top: 60px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .btn {
+    padding: 13px 80px;
+    background-color: rgb(214, 103, 103);
+    margin-top: 60px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    color: white;
+    border: 0;
+    font-size: 15px;
+  }
+  .sub-body-part-2{
+    width: 500px;
+    height: 225px;
+    background-color: rgb(214, 103, 103);
+  }
+  .body-part-2{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 40px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    margin-top: 40px;
+  }
+  .sub-body-part-2 img{
+    justify-items: center;
+  }
+  .body-part-2 p{
+    font-size: 60px;
+    font-weight: bolder;
+  }
+  .body-part-2 h6{
+    font-size: 20px;
+  }
+  .sub-body-part-2{
+    padding: 35px;
+  }
+  .arrow a{
+      text-decoration: none;
+      color:black;
+      display: block;
+      margin-right: 10px;
+  }
+  .arrow{
+    margin-top: 20px;
+    display: flex;
+    justify-items: center;
+  } 
+
+  @media screen and (max-width: 768px) {
+    .nav-ul {
+      flex-direction: column; /* Stack navigation items for smaller screens */
+    }
+  
+    .nav-ul li {
+      margin-bottom: 10px; /* Add spacing between navigation items for smaller screens */
+    }
+  }
